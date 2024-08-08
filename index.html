@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hai</title>
+  <meta name="description" content="Semangat">
+  <meta name="author" content="Heryoka">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/efekteks.css">
+  <link rel="stylesheet" href="css/responsif.css">
+  <link rel="stylesheet" href="css/gaktau.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+</head>
+
+<body>  
+  <div class="kontener2" id="kontener2">
+    <h1>Hai💖</h1>
+    <button class="tombol" id="tombol">Tekan ini</button>
+  </div>
+
+  <div class="kontener" id="kontener">
+    <div class="dalemnya_kontener">
+      <h1 class="judul_halaman"></h1>
+      <a class="tombol_menu" onclick="klikMenu()"></a>
+      <section class="halaman1 dalemnya_halaman" onclick="PindahKeHalaman(0)">
+        <h1 class="judul_halaman">HAPPY BIRTHDAY SAYANGG🎉</h1>
+        <br>
+        <img src="gambar/photo/poopooow (1).jpeg" alt="Bisa diisi gambar" class="gambar">
+        <br>
+        <div class="ucapan1">
+          <p class="isiucapan1">selamat ulang tahun yaa popoww, semogaa panjang umur sehat selalu, semoga apa yang kamu ingi kan tercapai, nurut sama bundaa & baba, makin cantik, dan makin sayang sama aku. kamu pantes di cintai dan di perlakukan kaya ginii samaa akuu karnaa kamu yangg palinggg terbaikk.</p>
+        </div>
+      </section>
+      <section class="halaman2 dalemnya_halaman" onclick="PindahKeHalaman(1)">
+        <h1 class="judul_halaman">HAPPY BIRTHDAY KANJENG RATU👑</h1>
+        <br>
+        <img src="gambar/photo/popowwww.jpeg" alt="Bisa diisi gambar" class="gambar">
+        <br>
+        <div class="ucapan2">
+          <p class="isiucapan2">maafin aku yaa di tahun ini aku buat kamu kecewa, sedi, marah yaa semua hal yang bikin kamu gaa enak selama sama aku, aku mintaa maaff yaa☹️. dann buat masalahh yang waktuu itu jugaa akuu mintaa maaf akuu udahh ceroboh bangett😔, jadinyaa nama kamuu rusakk di mataa guru-guru sama ustadzah. yaa pokoknyaa aku mintaa maaf bangett. akuu jugaa mintaa maaf selamaa kita break akuu nyaa cuek judes sinis atauu gimanaa-gimanaa maafinnn akuuu😔, kann biarr keliatann udahann. akuu sebenernyaa mauu liatinn kamuu muluuu, akuu senenggg ketemuu kamuu muluuu. tapii yangg dipikirann akuu tuhh mikirr "diaa masihh suka gaa yaa?atauu break dengan alesann mau fokus dan biar gaa keliatan udahan itu cuma biar dia bisa move on dari aku".akuu bencii sendirii samaa pikirann akuu tauu, akuu mikirinn kamuu muluuu, dann kadangg akuu nangiss sihh tengahh malemm gaa tauu kenapaa kaloo kepikirann kamuu hehehe. yaa akuu cengengg sihh iyaa cengengg bangett. akuu ceritaa sedikitt sajaa disinii nasib akuu waktuu kitaa break hehe. dann akuu harapp kamuu sukaa inii yaa hehehe.
+          </p>
+        </div>
+      </section>
+      <section class="halaman3 dalemnya_halaman" onclick="PindahKeHalaman(2)">
+        <h1 class="judul_halaman">HAPPY BIRTHDAY CINTAKUUU💖</h1>
+        <br>
+        <img src="gambar/photo/447627989_1219080206138659_2565243737684268062_n_.jpeg" alt="Bisa diisi gambar" class="gambar">
+        <br>
+        <div class="ucapan3">
+          <p class="isiucapan3">aku harap kitaa nantii gaa jadii asingg, dann kaloo kamuu udahh gaa sukaa akuu kamuu bilangg jangan nantii chat aku cumaa sekedar gabut aja tanpa ada rasa jagann yaa kan kamuu gaa sejahat ituu. sebenernyaa akuu gaa kuatt break kayaa ginii, AKUU KANGENN BANGETTTT😩, ga tau aku mauu ceritaa kesiapa binggungg gaa adaa siapa-siapa yang mauu dengerinn aku, mauu sedii tapi ini emang yang terbaik buat kamu😊, dan yang terpenting kamu bahagia dan ga kepikiran lagi, dan kamu juga biar ga terkekang juga, kan kalo ada aku kamu ga bebas mau ngapa-ngapain kann?jadii aku harap kamu balik lagi ke rumah ini, dengan perasaan yang sama dan gaa ada berkurang sedikit pun. apiww selalu nungguin popowww😊</p>
+        </div>
+      </section>
+      <section class="halaman4 dalemnya_halaman" onclick="PindahKeHalaman(3)">
+        <h1 class="judul_halaman">HAPPY BIRTHDAY POPOWW SAYANGGG</h1>
+        <br>
+        <h1 id="waktu"></h1>
+        <script type="text/javascript">
+          document.write("<center>");
+          var hari = new Date();
+          var jam = hari.getHours();
+          if (jam >= 0 && jam < 12) {
+            document.write(
+              "<h1 class='ucapan'>Morning!</h1><p class='isiucapan'>Jangan lupa sarapan<3<p>"
+            );
+          } else if (jam == 12) {
+            document.write(
+              "<h1 class='ucapan'>Siang!</h1><p class='isiucapan'>Jangan Lupa Kamu Makan Siang Yaa <3<p>"
+            );
+          } else if (jam >= 12 && jam <= 17) {
+            document.write(
+              "<h1 class='ucapan'>Siang Menjelang Sore!</h1><p class='isiucapan'>jangann lupaa senyumm yaa sayanggg haruss bahagiaa di hari spesial kamu ini<3<p>"
+            );
+          } else {
+            document.write(
+              "<h1 class='ucapan'>Night!</h1><p class='isiucapan'>Setelah seharian beraktivitas, kini telah tiba saatnya untuk beristirahat, Good Night :) <3<p>"
+            );
+          }
+          document.write("</center>");
+        </script>
+      </section>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.0/jquery.min.js"
+    integrity="sha512-synHs+rLg2WDVE9U0oHVJURDCiqft60GcWOW7tXySy8oIr0Hjl3K9gv7Bq/gSj4NDVpc5vmsNkMGGJ6t2VpUMA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdn.rawgit.com/bungfrangki/efeksalju/2a7805c7/efek-salju.js" type="text/javascript"></script>
+  <script src="js/script.js"></script>
+  <script>
+    document.getElementById("waktu").innerHTML = formatAMPM();
+
+    function formatAMPM() {
+      var waktu = new Date(),
+        menit = waktu.getMinutes().toString().length == 1 ? '0' + waktu.getMinutes() : waktu.getMinutes(),
+        jam = waktu.getHours().toString().length == 1 ? '0' + waktu.getHours() : waktu.getHours(),
+        ampm = waktu.getHours() >= 12 ? 'PM' : 'AM',
+        bulan = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 'September', 'Oktober',
+          'November', 'Desember'
+        ],
+        hari = ['Minggu', 'Senin', 'Selasa', 'Rabu', 'Kamis', 'Jumat', 'Sabtu'];
+      return '<h1 class="ml1"><span class="text-wrapper"><span class="line line1"></span><span class="letters">' + hari[
+          waktu.getDay()] +
+        ', ' + waktu.getDate() + ' ' + bulan[waktu.getMonth()] +
+        ' ' + waktu.getFullYear() + '</span><span class="line line2"></span></span></h1><p class="ml2"> ' + jam + ':' +
+        menit + ' ' + ampm + ' </p>';
+
+    }
+  </script>
+  <script>
+    $(document).ready(function () {
+      var audio = new Audio('audio');
+      $("#tombol").click(function () {
+        $("#kontener2").fadeOut();
+        $("#kontener").fadeIn("4000");
+        audio.play();
+      });
+    });
+  </script>
+  <script>
+    var textWrapper = document.querySelector('.ml1 .letters');
+    textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+    anime.timeline({
+        loop: false
+      })
+      .add({
+        targets: '.ml1 .letter',
+        scale: [0.3, 1],
+        opacity: [0, 1],
+        translateZ: 0,
+        easing: "easeOutExpo",
+        duration: 600,
+        delay: (el, i) => 70 * (i + 1)
+      }).add({
+        targets: '.ml1 .line',
+        scaleX: [0, 1],
+        opacity: [0.5, 1],
+        easing: "easeOutExpo",
+        duration: 700,
+        offset: '-=875',
+        delay: (el, i, l) => 80 * (l - i)
+      }).add({
+        targets: '.ml1',
+        opacity: 1,
+        duration: 1000,
+        easing: "easeOutExpo",
+        delay: 1000
+      });
+  </script>
+  <script>
+    var textWrapper = document.querySelector('.ml2');
+    textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+    anime.timeline({
+        loop: false
+      })
+      .add({
+        targets: '.ml2 .letter',
+        scale: [4, 1],
+        opacity: [0, 1],
+        translateZ: 0,
+        easing: "easeOutExpo",
+        duration: 950,
+        delay: 1400
+      }).add({
+        targets: '.ml2',
+        opacity: 1,
+        duration: 1000,
+        easing: "easeOutExpo",
+        delay: 1000
+      });
+  </script>
+</body>
+
+</html>
